@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;;
+}
+.balloon-animation {
+    background-color: #00e7ff;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.flying-cloud {
+    position: absolute;
+    width: 20%;
+}
+
+.flying-balloon {
+    position: absolute;
+    width: 15%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flying-cloud:nth-child(1) {
+    left: 20%;
+    top: 30%;
+}
+
+.flying-cloud:nth-child(2) {
+    left: 24%;
+}
+
+.flying-cloud:nth-child(3) {
+    left: 33%;
+    top: 25%;
+    z-index: 1;
+}
+
+.flying-cloud:nth-child(4) {
+    left: 60%;
+}
+
+.flying-cloud:nth-child(5) {
+    top: 25px;
+    z-index: 1;
+}
